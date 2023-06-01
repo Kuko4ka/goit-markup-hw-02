@@ -1,7 +1,6 @@
 body {
   font-family: "Roboto" sans-serif;
   color: #434455;
-  font-family: "Roboto";
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -16,19 +15,31 @@ header {
   text-transform: none;
 }
 
-.header-logo {
+.link {
   font-family: "Raleway" sans-serif;
   font-style: normal;
   font-weight: 800;
   font-size: 18px;
-  line-height: 21px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
   text-decoration: none;
   text-transform: uppercase;
-  color: #2e2f42;
+  color: #4d5ae5;
 }
 
 .header-logo-span {
-  color: #4d5ae5;
+  color: #2e2f42;
+}
+
+.list {
+  list-style: none;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+}
+
+.header-address {
+  font-style: normal;
 }
 
 /* Main */
@@ -37,7 +48,7 @@ header {
   background-color: #2e2f42;
 }
 
-h1 {
+.main-section-h1 {
   font-style: normal;
   font-weight: 700;
   font-size: 56px;
