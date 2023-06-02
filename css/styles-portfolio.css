@@ -5,7 +5,7 @@
 
 /* Header */
 .header-logo {
-  font-family: "Raleway";
+  font-family: "Raleway", sans-serif;
   font-style: normal;
   font-weight: 800;
   font-size: 18px;
@@ -27,4 +27,12 @@
 
 .list {
   list-style: none;
+}
+
+.header-nav-ul-a :hover {
+  color: #404bbf;
+}
+
+.header-nav-ul-a :focus {
+  color: #404bbf;
 }
