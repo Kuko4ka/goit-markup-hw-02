@@ -50,6 +50,10 @@ body {
   color: #404bbf;
 }
 
+.header-address {
+  font-style: normal;
+}
+
 .header-address-ul-li-a {
   font-size: 16px;
   line-height: 1.5;
