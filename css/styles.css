@@ -1,118 +1,26 @@
-body {
-  font-family: "Roboto" sans-serif;
-  color: #434455;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 24px;
-  text-align: left;
-  letter-spacing: 0.02em;
+:root {
+  --logocolor: #2e2f42;
 }
 
-/* Header */
-header {
-  text-decoration: none;
-  text-transform: none;
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: #ffff;
 }
 
 .link {
-  font-family: "Raleway" sans-serif;
+  text-decoration: none;
+}
+
+/* Header */
+
+.header-logo {
+  font-family: "Raleway";
   font-style: normal;
   font-weight: 800;
   font-size: 18px;
   line-height: 1.17;
+  align-items: center;
   letter-spacing: 0.03em;
-  text-decoration: none;
   text-transform: uppercase;
   color: #4d5ae5;
-}
-
-.header-logo-span {
-  color: #2e2f42;
-}
-
-.list {
-  list-style: none;
-  font-size: 16px;
-  line-height: 24px;
-  letter-spacing: 0.02em;
-}
-
-.header-address {
-  font-style: normal;
-}
-
-/* Main */
-
-.main-hero {
-  background-color: #2e2f42;
-}
-
-.main-section-h1 {
-  font-style: normal;
-  font-weight: 700;
-  font-size: 56px;
-  line-height: 60px;
-  text-align: center;
-  letter-spacing: 0.02em;
-  color: #ffff;
-}
-
-h2 {
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1.11;
-  /* identical to box height, or 111% */
-
-  text-align: center;
-  letter-spacing: 0.02em;
-  text-transform: capitalize;
-}
-
-button {
-  background: #4d5ae5;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-  border-radius: 4px;
-  cursor: pointer;
-}
-
-.main-section-team {
-  background: #f4f4fd;
-}
-
-h3 {
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 24px;
-  letter-spacing: 0.02em;
-}
-
-p {
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 24px;
-  letter-spacing: 0.02em;
-}
-
-/* Footer */
-footer {
-  background-color: #2e2f42;
-  color: #f4f4fd;
-}
-
-.footer-logo {
-  font-family: "Raleway" sans-serif;
-  font-style: normal;
-  font-weight: 800;
-  font-size: 18px;
-  line-height: 21px;
-  text-decoration: none;
-  text-transform: uppercase;
-  color: #f4f4fd;
 }
