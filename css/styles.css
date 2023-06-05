@@ -1,10 +1,12 @@
 :root {
-  --logocolor: #2e2f42;
+  --brandcolor: #2e2f42;
+  --addresscolor: #434455;
 }
 
 body {
   font-family: "Roboto", sans-serif;
   background-color: #ffff;
+  color: #434455;
 }
 
 .link {
@@ -18,7 +20,7 @@ body {
 /* Header */
 
 .header-logo {
-  font-family: "Raleway";
+  font-family: "Raleway", sans-serif;
   font-style: normal;
   font-weight: 800;
   font-size: 18px;
@@ -31,5 +33,30 @@ body {
 }
 
 .header-logo-span {
-  color: var(--logocolor);
+  color: var(--brandcolor);
+}
+
+.header-ul-li {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--brandcolor);
+}
+
+.header-ul-li:hover,
+.header-ul-li:focus {
+  color: #404bbf;
+}
+
+.header-address-ul-li {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--addresscolor);
+}
+
+.header-address-ul-li:hover,
+.header-address-ul-li:focus {
+  color: #404bbf;
 }
