@@ -36,27 +36,28 @@ body {
   color: var(--brandcolor);
 }
 
-.header-ul-li {
+.header-ul-li-a {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--brandcolor);
+  font-style: normal;
 }
 
-.header-ul-li:hover,
-.header-ul-li:focus {
+.header-ul-li-a:hover,
+.header-ul-li-a:focus {
   color: #404bbf;
 }
 
-.header-address-ul-li {
+.header-address-ul-li-a {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--addresscolor);
 }
 
-.header-address-ul-li:hover,
-.header-address-ul-li:focus {
+.header-address-ul-li-a:hover,
+.header-address-ul-li-a:focus {
   color: #404bbf;
 }
