@@ -42,7 +42,6 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--brandcolor);
-  font-style: normal;
 }
 
 .header-ul-li-a:hover,
@@ -64,4 +63,39 @@ body {
 .header-address-ul-li-a:hover,
 .header-address-ul-li-a:focus {
   color: #404bbf;
+}
+
+/* Main */
+
+.main-hero {
+  background-color: var(--brandcolor);
+}
+
+.main-hero-text {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1.07;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+}
+
+.main-hero-button {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.04em;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.main-hero-button:hover,
+.main-hero-button:focus {
+  background-color: #404bbf;
 }
