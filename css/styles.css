@@ -1,6 +1,7 @@
 :root {
   --brandcolor: #2e2f42;
   --addresscolor: #434455;
+  --footercolor: #f4f4fd;
 }
 
 body {
@@ -142,6 +143,7 @@ body {
 }
 
 .main-section-team-ul-li-h3 {
+  font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   text-align: center;
@@ -155,4 +157,21 @@ body {
   text-align: center;
   letter-spacing: 0.02em;
   color: var(--addresscolor);
+}
+
+/* Footer */
+
+.page-footer {
+  background-color: var(--brandcolor);
+}
+
+.footer-logo-span {
+  color: #f4f4fd;
+}
+
+.footer-p {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--footercolor);
 }
