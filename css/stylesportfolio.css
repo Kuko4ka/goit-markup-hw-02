@@ -2,6 +2,8 @@
   --brandcolor: #2e2f42;
   --addresscolor: #434455;
   --footercolor: #f4f4fd;
+  --buttoncolor: #4d5ae5;
+  --buttonbackground: #f4f4fd;
 }
 
 body {
@@ -64,4 +66,38 @@ body {
 .header-address-ul-li-a:hover,
 .header-address-ul-li-a:focus {
   color: #404bbf;
+}
+
+/* Main */
+.port-main-button {
+  font-size: 16px;
+  line-height: 1.5;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.04em;
+  color: var(--buttoncolor);
+  background-color: var(--buttonbackground);
+  cursor: pointer;
+}
+
+.port-main-button:hover,
+.port-main-button:focus {
+  color: #ffffff;
+  background-color: #404bbf;
+}
+/* Footer */
+
+.page-footer {
+  background-color: var(--brandcolor);
+}
+
+.footer-logo-span {
+  color: #f4f4fd;
+}
+
+.footer-p {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--footercolor);
 }
