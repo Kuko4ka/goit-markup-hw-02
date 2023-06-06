@@ -123,8 +123,36 @@ body {
 /* Section 3 */
 
 .section-h2 {
-  font-size: 16px;
-  line-height: 1.5;
+  color: var(--brandcolor);
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+}
+
+/* Section 4 */
+
+.main-section-team {
+  background-color: #f4f4fd;
+}
+
+.main-section-team-ul-li {
+  background-color: #ffff;
+}
+
+.main-section-team-ul-li-h3 {
+  font-size: 20px;
+  line-height: 1.2;
+  text-align: center;
   letter-spacing: 0.02em;
   color: var(--brandcolor);
+}
+
+.main-section-team-ul-li-p {
+  font-size: 16px;
+  line-height: 1.5;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: var(--addresscolor);
 }
