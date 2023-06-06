@@ -88,13 +88,13 @@ body {
   background-color: #404bbf;
 }
 
-.section-h2 {
-  color: var(--brandcolor);
-  font-size: 36px;
-  line-height: 1.11;
-  text-align: center;
+.port-ul-h3 {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
   letter-spacing: 0.02em;
-  text-transform: capitalize;
+  color: #2e2f42;
 }
 
 .port-ul-p {
