@@ -2,6 +2,9 @@
   --brandcolor: #2e2f42;
   --addresscolor: #434455;
   --footercolor: #f4f4fd;
+  --footercolor: #f4f4fd;
+  --buttoncolor: #4d5ae5;
+  --buttonbackground: #f4f4fd;
 }
 
 body {
@@ -165,4 +168,40 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--footercolor);
+}
+
+/* Portfolio */
+.port-main-button {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.04em;
+  color: var(--buttoncolor);
+  background-color: var(--buttonbackground);
+  cursor: pointer;
+}
+
+.port-main-button:hover,
+.port-main-button:focus {
+  color: #ffffff;
+  background-color: #404bbf;
+}
+
+.port-ul-hthree {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+
+.port-ul-p {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--addresscolor);
 }
