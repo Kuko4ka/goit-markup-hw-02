@@ -67,6 +67,7 @@ body {
 
 /* Main */
 
+/* Section 1 */
 .main-hero {
   background-color: var(--brandcolor);
 }
@@ -101,7 +102,9 @@ body {
   background-color: #404bbf;
 }
 
-.section-two-h3 {
+/* Section 2 */
+
+.section-goals-h3 {
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
@@ -110,7 +113,16 @@ body {
   color: var(--brandcolor);
 }
 
-.section-two-p {
+.section-goals-p {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--brandcolor);
+}
+
+/* Section 3 */
+
+.section-h2 {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
