@@ -29,7 +29,6 @@ body {
   font-weight: 800;
   font-size: 18px;
   line-height: 1.17;
-  align-items: center;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
@@ -81,7 +80,6 @@ body {
   font-weight: 700;
   font-size: 56px;
   line-height: 1.07;
-  text-align: center;
   letter-spacing: 0.02em;
   color: #ffffff;
 }
@@ -92,7 +90,6 @@ body {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
-  align-items: center;
   letter-spacing: 0.04em;
   color: #ffffff;
   cursor: pointer;
@@ -128,7 +125,6 @@ body {
   color: var(--brandcolor);
   font-size: 36px;
   line-height: 1.11;
-  text-align: center;
   letter-spacing: 0.02em;
   text-transform: capitalize;
 }
@@ -146,7 +142,6 @@ body {
 .main-section-team-ul-li-p {
   font-size: 16px;
   line-height: 1.5;
-  text-align: center;
   letter-spacing: 0.02em;
   color: var(--addresscolor);
 }
@@ -174,8 +169,6 @@ body {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
-  align-items: center;
-  text-align: center;
   letter-spacing: 0.04em;
   color: var(--buttoncolor);
   background-color: var(--buttonbackground);
